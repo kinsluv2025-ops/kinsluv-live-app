@@ -1,0 +1,13 @@
+# Example Render service spec (illustrative)
+services:
+  - type: web
+    name: kinsluv-backend
+    env: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    envVars:
+      - key: MONGO_URI
+      - key: ZEGO_APP_ID
+      - key: ZEGO_SERVER_SECRET
+      - key: FRONTEND_URL

@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  frontend:
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    working_dir: /app
+    command: npm start
+  backend:
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    working_dir: /app
+    command: npm run dev
