@@ -1,6 +1,6 @@
 # Kinsluv Live – Full Repo Skeleton (Extended)
 
-This repository is a ready-to-deploy skeleton for a Crush/Kinsluv-style live streaming app
+This repository is a ready-to-deploy skeleton for a Kinsluv-style live streaming app
 using ZEGOCLOUD (Zego) for real-time streaming, MongoDB for persistence, React frontend,
 Node.js backend, Docker, and GitHub Actions CI.
 
